@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  int year, month, day;
+  cin >> year >> month >> day;
+  if ( month >= 5 )
+    cout << "TBD" << endl;
+  else
+    cout << "Heisei" << endl;
+  return 0;
+}
